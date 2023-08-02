@@ -1,24 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Welcome from "./pages/Welcome";
+import Instructions from "./pages/Instructions";
+import Quiz from "./pages/Quiz";
+import Result from "./pages/Result";
+import ErrorPage from "./pages/ErrorPage";
+import {BrowserRouter as Router, Routes , Route} from "react-router-dom"
+import UserContextProvider from "./context/UserContext";
+import "./App.css"
+
 
 function App() {
+
+ 
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+   <div className="wall">
+   <UserContextProvider>
+   <Router>
+    <Routes>
+      <Route path="/" element={<Welcome/>} />
+      <Route path="/instruction" element={<Instructions/>} />
+      <Route path="/quiz" element={<Quiz/>} />
+      <Route path="/result" element={<Result/>} />
+      <Route path="/*" element={<ErrorPage/>} />
+    </Routes>
+   </Router>
+   </UserContextProvider>
+
+
+   </div>
+   </>
   );
 }
 

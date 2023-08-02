@@ -1,0 +1,26 @@
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+li{
+    list-style-type: none;
+}
+
+.content{
+      margin-top: 10%;
+      display: flex;
+      justify-content: center;
+}
+
+.content1{
+    display: flex;
+    justify-content: center;
+}
+.content3{
+    display: flex;
+    justify-content: center;
+}
+
