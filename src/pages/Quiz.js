@@ -66,7 +66,7 @@ const Quiz =()=>{
       
       </Border>
       <WithLabelExample/>
-      <div className="display-5"  style={{"textDecoration": "none", color: 'white' ,fontWeight:"normal"}} ><center>{time.min} : {time.sec}</center></div>
+      <div className="display-5"  style={{"textDecoration": "none", color: 'black' ,fontWeight:"normal"}} ><center>{time.min} : {time.sec}</center></div>
       </div> :
       <>
       {clearInterval(inter)}
