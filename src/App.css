@@ -1,4 +1,7 @@
 .wall{
-    background-image: url("./assets/paper.jpg");
+    background-image: url("./assets/bgs.jpg");
     height: 100vh;
+    background-position: center;
+   
 }
+

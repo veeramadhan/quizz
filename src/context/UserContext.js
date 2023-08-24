@@ -50,13 +50,14 @@ const UserContextProvider = ({children}) =>{
     }
     const next = () =>{
         if (value === ""){
-            alert ("please select The value")
+            alert ("please select The answer")
             return
         }
             percent = percent + (100/Questions.length);
             Final_answers.push(value);
             calCMark()
         setIndex(prev => prev+1);
+        
     }
 
     const submit =()=>{

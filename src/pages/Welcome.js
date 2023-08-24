@@ -14,7 +14,7 @@ function Welcome() {
         <div className='display-3'>
           <BsArrowDown/>
         </div>
-        <Link to="/instruction" className='display-5' style={{"textDecoration": "none"}}>Click Here</Link>
+        <Link to="/instruction" className='display-5' style={{"textDecoration": "none", color: 'black' ,fontWeight:"normal"}}>Click Here</Link>
       </center>
 
     </div>

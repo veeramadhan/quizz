@@ -1,0 +1,7 @@
+.res{
+    display: flex;
+    justify-content: center;
+    padding-top: 20%;
+    font-weight: 800;
+    font-size: 3rem;
+}

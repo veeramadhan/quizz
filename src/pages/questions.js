@@ -1,19 +1,25 @@
 export const Questions = [{
-    id:1,q:"who is the top most actor in tamil?",o1:"Ajith",o2:"Vijay",o3:"Kamal"
+    id:1,q:"この辺り___________に郵便局がありますか.",o1:"あたり",o2:"まわり"
 },
 {
-    id:2,q:"what is the next flim of Vijay?",o1:"T68",o2:"T67",o3:"Leo"
+    id:2,q:"新しい型 __________のパソコンが欲しい.",o1:"かたち",o2:"かた"
 },
 {
-    id:3,q:"who is the top most  comedien in tamil?",o1:"Yogi",o2:"santhanam",o3:"sathish"
+    id:3,q:"海で,かい__________を拾った.",o1:"具",o2:"貝"
 },
 {
-    id:4,q:"when vijay is enter into political election?",o1:"2024",o2:"2026",o3:"none of the above"
+    id:4,q:"白いたま_________のネックレスをもらった.",o1:"玉",o2:"王"
 },
 {
-    id:5,q:"In BEAST movie Vijay name is?",o1:"VeeraRagavan",o2:"soora",o3:"Antony"
+    id:5,q:"昨日、友達と夜遅くまでおさけ____________を飲んだ。",o1:"お酒 ",o2:"お酒"
 },
+{
+    id:6,q:"ゆき_________が降っています。 寒いですね.。",o1:"雷",o2:"雪"
+},
+{
+    id:7,q:"京都には古いおてら_________がたくさんある.",o1:"お待",o2:"お寺"
+}
 ]
 
 
-export const answers = ["Vijay","Leo","Yogi","2024","VeeraRagavan"]
+export const answers = ["あたり","かた","貝","玉","お酒","雪","お寺"]

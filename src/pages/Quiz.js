@@ -12,7 +12,7 @@ import WithLabelExample from './progress'
 const Quiz =()=>{
 
   const {index,next,value,onRadioChange,submit,time,inter} = UseUserContext()
-  const {id,q,o1,o2,o3} =Questions[index]
+  const {id,q,o1,o2} =Questions[index]
   return(
     <>
     
@@ -43,7 +43,7 @@ const Quiz =()=>{
               <span className='p-2 h-6'>{o2}</span>
             </label>
           </li>
-          <li>
+          {/* <li>
             <label>
               <input type='radio'
               value={o3}
@@ -51,7 +51,7 @@ const Quiz =()=>{
               onChange={onRadioChange} />
               <span className='p-2 h-6'>{o3}</span>
             </label>
-          </li>
+          </li> */}
         </ul>
       
       </div>
@@ -66,7 +66,7 @@ const Quiz =()=>{
       
       </Border>
       <WithLabelExample/>
-      <div className="display-5"><center>{time.min} : {time.sec}</center></div>
+      <div className="display-5"  style={{"textDecoration": "none", color: 'white' ,fontWeight:"normal"}} ><center>{time.min} : {time.sec}</center></div>
       </div> :
       <>
       {clearInterval(inter)}
