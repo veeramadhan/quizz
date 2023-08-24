@@ -57,7 +57,7 @@ const UserContextProvider = ({children}) =>{
             Final_answers.push(value);
             calCMark()
         setIndex(prev => prev+1);
-        
+        setValue("");
     }
 
     const submit =()=>{
