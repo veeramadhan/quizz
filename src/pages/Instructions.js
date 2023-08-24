@@ -11,7 +11,7 @@ const Instructions = ()=>{
      Instructions
 </div>
    <ui className="list-group list-group-flush">
-    <li className='list-group-item'>1.You are given minutes to answer the questions.</li>
+    <li className='list-group-item'>1.You are given 1 minutes to answer the questions.</li>
     <li className='list-group-item'>2.You are not allowed to skip the questions.</li>
     <li className='list-group-item'>3.All the questions must be answered</li>
     <li className='list-group-item'>4.You are not allowed to go back</li>

@@ -6,8 +6,10 @@ function Welcome() {
   return (
     <>
     <div>
-      <center className='display-3  p-5'>
+      <center className='display-6  p-5'>
         Welcome To The Quizz App
+        <br></br>
+        N3 Kanji Lesson -1
         <br></br>
         Click here to enter
         <br></br>
